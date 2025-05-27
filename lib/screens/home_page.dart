@@ -81,12 +81,12 @@ class _HomePageState extends State<HomePage> {
               Row(
                 children: [
                   Expanded(child: Padding(
-                    padding: const EdgeInsets.all(10.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 20.0),
                     child: CategoriasCustom(),
                   )),
                   Expanded(child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                    child: AtivosCustom(),
+                    child: Container(color: Colors.amber,child: AtivosCustom()),
                   )),
                 ],
               ),

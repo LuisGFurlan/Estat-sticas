@@ -48,7 +48,7 @@ class _ChartCustomState extends State<ChartCustom> {
                     barRods: [
                       BarChartRodData(
                         toY: 4,
-                        width: 30,
+                        width: 20.w,
                         borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(5),
                           topRight: Radius.circular(5),
@@ -62,7 +62,7 @@ class _ChartCustomState extends State<ChartCustom> {
                     barRods: [
                       BarChartRodData(
                         toY: 6,
-                        width: 30,
+                        width: 20.w,
                         borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(5),
                           topRight: Radius.circular(5),
@@ -76,7 +76,7 @@ class _ChartCustomState extends State<ChartCustom> {
                     barRods: [
                       BarChartRodData(
                         toY: 7,
-                        width: 30,
+                        width: 20.w,
                         borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(5),
                           topRight: Radius.circular(5),
