@@ -13,7 +13,6 @@ class _MestricsCustomState extends State<MestricsCustom> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.amberAccent,
       height: 150,
       child: Column(
         children: [

@@ -17,7 +17,6 @@ class _CategoriasCustomState extends State<CategoriasCustom> {
           Align(
             alignment: Alignment.centerLeft,
             child: Container(
-              color: Colors.amberAccent,
               height: 200,
                 child: Column(
                   children: [

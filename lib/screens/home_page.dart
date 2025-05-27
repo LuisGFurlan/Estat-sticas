@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                   )),
                   Expanded(child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                    child: Container(color: Colors.amber,child: AtivosCustom()),
+                    child: AtivosCustom(),
                   )),
                 ],
               ),
