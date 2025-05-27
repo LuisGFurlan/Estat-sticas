@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AtivosCustom extends StatefulWidget {
   const AtivosCustom({super.key});
@@ -22,7 +23,7 @@ class _AtivosCustomState extends State<AtivosCustom> {
                 children: [
                   Padding(
                     padding: const EdgeInsets.only(right: 20),
-                    child: Text("Ativos Recentes", style: TextStyle(fontSize: 18, fontFamily: "Inter", fontWeight: FontWeight.bold)),
+                    child: Text("Ativos Recentes", style: TextStyle(fontSize: 16.5.sp, fontFamily: "Inter", fontWeight: FontWeight.bold)),
                   ),
                   Align(
                     alignment: Alignment.centerLeft,

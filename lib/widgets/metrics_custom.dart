@@ -16,7 +16,7 @@ class _MestricsCustomState extends State<MestricsCustom> {
       height: 150,
       child: Column(
         children: [
-          Text("Métricas", style: TextStyle(fontSize: 18, fontFamily: "Inter", fontWeight: FontWeight.bold),),
+          Text("Métricas", style: TextStyle(fontSize: 16.5.sp, fontFamily: "Inter", fontWeight: FontWeight.bold),),
           Row(
             children: [
               Container(

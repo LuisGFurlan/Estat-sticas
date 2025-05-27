@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CategoriasCustom extends StatefulWidget {
   const CategoriasCustom({super.key});
@@ -20,7 +21,7 @@ class _CategoriasCustomState extends State<CategoriasCustom> {
               height: 200,
                 child: Column(
                   children: [
-                    Text("Categoria", style: TextStyle(fontSize: 18, fontFamily: "Inter", fontWeight: FontWeight.bold),),
+                    Text("Categoria", style: TextStyle(fontSize: 16.5.sp, fontFamily: "Inter", fontWeight: FontWeight.bold),),
                     Align(
                       alignment: Alignment.centerLeft,
                       child: Column(
