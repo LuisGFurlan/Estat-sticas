@@ -33,7 +33,7 @@ class _AtivosCustomState extends State<AtivosCustom> {
                           Row(
                             children: [
                               Text("25/04", style: TextStyle(fontFamily: "Inter", fontSize: 14),),
-                              SizedBox(width: 95,),
+                              Spacer(),
                               Text(
                                 "Ativo",
                                 style: TextStyle(color: Colors.green,fontFamily: "Inter", fontSize: 14),
@@ -42,7 +42,8 @@ class _AtivosCustomState extends State<AtivosCustom> {
                           ),
                           Row(
                             children: [
-                              Text("30/04", style: TextStyle(fontFamily: "Inter", fontSize: 14),),                                SizedBox(width: 95,),
+                              Text("30/04", style: TextStyle(fontFamily: "Inter", fontSize: 14),),                                
+                              Spacer(),
                               Text(
                                 "Ativo",
                                 style: TextStyle(color: Colors.green,fontFamily: "Inter", fontSize: 14),
@@ -52,7 +53,7 @@ class _AtivosCustomState extends State<AtivosCustom> {
                           Row(
                             children: [
                               Text("01/05", style: TextStyle(fontFamily: "Inter", fontSize: 14),),
-                              SizedBox(width: 98,),
+                              Spacer(),
                               Text(
                                 "Ativo",
                                 style: TextStyle(color: Colors.green,fontFamily: "Inter", fontSize: 14),
@@ -62,7 +63,7 @@ class _AtivosCustomState extends State<AtivosCustom> {
                           Row(
                             children: [
                               Text("05/05", style: TextStyle(fontFamily: "Inter", fontSize: 14),),
-                              SizedBox(width: 96,),
+                              Spacer(),
                               Text(
                                 "Ativo",
                                 style: TextStyle(color: Colors.green,fontFamily: "Inter", fontSize: 14),
@@ -72,7 +73,7 @@ class _AtivosCustomState extends State<AtivosCustom> {
                           Row(
                             children: [
                               Text("10/05", style: TextStyle(fontFamily: "Inter", fontSize: 14),),
-                              SizedBox(width: 98,),
+                              Spacer(),
                               Text(
                                 "Ativo",
                                 style: TextStyle(color: Colors.green,fontFamily: "Inter", fontSize: 14),
@@ -82,7 +83,7 @@ class _AtivosCustomState extends State<AtivosCustom> {
                           Row(
                             children: [
                               Text("15/05", style: TextStyle(fontFamily: "Inter", fontSize: 14),),
-                              SizedBox(width: 98,),
+                              Spacer(),
                               Text(
                                 "Ativo",
                                 style: TextStyle(color: Colors.green,fontFamily: "Inter", fontSize: 14),
@@ -92,7 +93,7 @@ class _AtivosCustomState extends State<AtivosCustom> {
                           Row(
                             children: [
                               Text("20/05", style: TextStyle(fontFamily: "Inter", fontSize: 14),),
-                              SizedBox(width: 95,),
+                              Spacer(),
                               Text(
                                 "Ativo",
                                 style: TextStyle(color: Colors.green,fontFamily: "Inter", fontSize: 14),

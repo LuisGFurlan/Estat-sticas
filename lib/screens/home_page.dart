@@ -66,13 +66,13 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Expanded(
                     child: Padding(
-                      padding: const EdgeInsets.all(10.0),
+                      padding: const EdgeInsets.symmetric(horizontal: 20.0),
                       child: ChartCustom(),
                     ),
                   ),
                   Expanded(
                     child: Padding(
-                      padding: const EdgeInsets.all(10.0),
+                      padding: const EdgeInsets.symmetric(horizontal: 20.0),
                       child: MestricsCustom(),
                     ),
                   ),

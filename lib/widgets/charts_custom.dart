@@ -24,12 +24,12 @@ class _ChartCustomState extends State<ChartCustom> {
               child: BarChart(
                 BarChartData(
                   gridData: FlGridData(show: false),
-                  groupsSpace: 20,
+                  groupsSpace: 10,
                   titlesData: FlTitlesData(
                     show: false,
                   ), // remove labels dos eixos
                   borderData: FlBorderData(show: false), // remove bordas
-                  alignment: BarChartAlignment.start,
+                  alignment: BarChartAlignment.center,
                   barGroups: [
                     BarChartGroupData(
                       x: 0,
