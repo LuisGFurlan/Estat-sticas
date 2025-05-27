@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
                     child: CategoriasCustom(),
                   )),
                   Expanded(child: Padding(
-                    padding: const EdgeInsets.all(10.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 20.0),
                     child: AtivosCustom(),
                   )),
                 ],
